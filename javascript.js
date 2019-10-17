@@ -1,3 +1,3 @@
 function myClick() {
- document.getElementById("myButton").style.color = "red";
+ document.getElementById("myButton").style.backgroundColor = "red";
 }
