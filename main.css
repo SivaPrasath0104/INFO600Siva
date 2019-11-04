@@ -15,6 +15,7 @@
 		font-style:italic;
 		margin:20px;
 	}
+	/* Table tag adds padding,margin,height,width*/
 	table th td
 	{
 		padding:10px;
