@@ -24,10 +24,10 @@
 			}
 		}
 	}
-
+/* script to calculate the year and check if its below 2000  */
 	function CheckYear()
 	{
-		var Year = document.myform.startYear.value;
+		var Year = parseInt(document.myform.startYear.value);
 		if(Year < 2000)
 		{
 			alert("Incorrect Year : " + Year);
@@ -37,7 +37,7 @@
 			PrintRecord();
 		}
 	}
-
+/* script to print the record in the page */
 	function PrintRecord()
 	{
 		var time = new Date();
@@ -56,7 +56,7 @@
 
 		ClearData();
 	}
-
+/* script to clear the data after successfull record */
 	function ClearData()
 	{
 		document.myform.fullName.value = "";
