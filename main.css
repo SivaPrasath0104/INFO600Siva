@@ -1,0 +1,31 @@
+	/* myTitle class adds font size,weight,color and alignment */
+	.myTitle
+	{	
+		font-size:25px;
+		color:black;
+		font-weight:Bold;
+	}
+	/* Paragraph tag adds font size,weight,color,margin and alignment */
+	p
+	{
+		color:black;
+		font-size:25px;
+		font-family:"Roboto";
+		padding:10px;
+		font-style:italic;
+		margin:20px;
+	}
+	table th td
+	{
+		padding:10px;
+		margin:10px;
+		height:200px;
+		width:10px;
+	}
+	/* body tag to define background color */
+	body
+	{
+		background-color:yellow;
+		color : blue;
+		font-size : 25px;
+	}	
